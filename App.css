@@ -1,0 +1,21 @@
+.App {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: orange;
+}
+
+ol.team-list li {
+  width: 320px;
+  padding: 12px 20px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  transition: all 0.4s ease;
+}
+
+ol.team-list li:hover {
+  box-shadow: 1px 1px 30px #c77b08;
+}
