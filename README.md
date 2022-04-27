@@ -7,6 +7,6 @@ A ideia do App é trazer o Ranking do Apoka atualizado e permitir que o público
 
 #### ainda falta fazer
 
-- [ ] Array com nome e logo do time
+- [x] Array com nome e logo do time
 - [ ] Nome e foto dos jogadores de cada time
 - [ ] Usar banco de dados no Firebase
