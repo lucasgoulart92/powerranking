@@ -5,6 +5,15 @@
   justify-content: center;
   flex-direction: column;
   background-color: orange;
+  padding-top: 140px;
+}
+
+.App h1 {
+  width: 200px;
+}
+
+ol.team-list {
+  padding: 90px 0;
 }
 
 ol.team-list li {
@@ -13,9 +22,17 @@ ol.team-list li {
   margin-bottom: 8px;
   text-transform: uppercase;
   border-radius: 6px;
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
+  cursor: crosshair;
 }
 
 ol.team-list li:hover {
   box-shadow: 1px 1px 30px #c77b08;
+  transform: translate(10px, 0);
+  background-color: #e0e0e0;
+}
+
+img.time-logo {
+  width: 20px;
+  margin-right: 20px;
 }

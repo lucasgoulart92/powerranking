@@ -1,33 +1,26 @@
-import { useState } from 'react';
 import './App.css';
+import logoApoka from './img/logo/logoapoka.png';
+import Footer from './elements/footer';
+
+import { Link } from 'react-router-dom';
+
+// importando a lista de times
+import times from './Teams';
 
 function App() {
-  const [times, setTimes] = useState([
-    'Fúria',
-    'Mibr',
-    'Imperial',
-    'Case Sports',
-    '9z',
-    'Pain Gaming',
-    'godsent',
-    '00 nation',
-    'team One',
-    'são caetano',
-    'yng sharks',
-    'isurus',
-    'leviatan',
-    'meta gaming',
-    'artic'
-  ]);
 
   return (
     <div className="App">
-      <h1>Power Ranking</h1>
+      <img className="logo-apoka" src={logoApoka}/>
       <ol className="team-list">
         {times.map(time => (
-          <li key={time}>{time}</li>
+          <li key={time}>
+            <img className="time-logo" src={time.avatarUrl}/>
+            {time.nome}
+          </li>
         ))}
       </ol>
+      <Footer/>
     </div>
   );
 }
