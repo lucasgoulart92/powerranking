@@ -4,8 +4,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: orange;
   padding-top: 140px;
+  background-image: url('./img/bgimage.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .App h1 {
@@ -13,7 +15,7 @@
 }
 
 ol.team-list {
-  padding: 90px 0;
+  padding-top: 90px;
 }
 
 ol.team-list li {
@@ -23,7 +25,7 @@ ol.team-list li {
   text-transform: uppercase;
   border-radius: 6px;
   transition: all 0.2s ease;
-  cursor: crosshair;
+  cursor: pointer;
 }
 
 ol.team-list li:hover {
@@ -35,4 +37,19 @@ ol.team-list li:hover {
 img.time-logo {
   width: 20px;
   margin-right: 20px;
+}
+
+button.resetar-lista {
+  background-color: #000;
+  border: none;
+  width: 320px;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px;
+  margin: 60px 0 80px 0;
+  cursor: pointer;
+}
+
+button.resetar-lista:hover {
+  color: orange;
 }

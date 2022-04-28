@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: orange;
   font-family: 'Russo One', Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
 
 img {
   height: auto;
+}
+
+button {
+  font-family: 'Russo One', Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
 }
