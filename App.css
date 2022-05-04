@@ -14,8 +14,18 @@
   width: 200px;
 }
 
+.about-links a {
+  margin: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+.about-links a:hover {
+  color: #e0e0e0;
+}
+
 ol.team-list {
-  padding-top: 90px;
+  padding: 90px 0;
 }
 
 ol.team-list li {
@@ -25,13 +35,30 @@ ol.team-list li {
   text-transform: uppercase;
   border-radius: 6px;
   transition: all 0.2s ease;
-  cursor: pointer;
+  cursor: move;
 }
 
 ol.team-list li:hover {
   box-shadow: 1px 1px 30px #c77b08;
   transform: translate(10px, 0);
   background-color: #e0e0e0;
+}
+
+h3.title-rebaixados {
+  text-align: left;
+  width: 320px;
+}
+
+ol.rebaixados {
+  padding: 20px 0;
+}
+
+ol.rebaixados li {
+  list-style: none;
+}
+
+.dragging {
+  border: 2px dashed #fff;
 }
 
 img.time-logo {
